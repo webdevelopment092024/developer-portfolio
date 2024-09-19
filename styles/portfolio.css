@@ -16,10 +16,26 @@ body{
     color: white;
     padding: 15px;
 }
+.section-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.section-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+/* nav related style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: rgb(24, 24, 24);
@@ -36,4 +52,50 @@ nav>ul>li{
 }
 nav>ul>li>a{
     text-decoration: none;
+}
+
+/* header related style */
+.header-class{
+    background-color: rgb(255, 248, 243);
+    background-image:url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 585px;
+}
+.pro-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+}
+
+/* Main Section Styles */
+
+
+
+/* About Section Styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin: 130px;
 }
