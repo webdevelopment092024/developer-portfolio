@@ -90,7 +90,10 @@ nav>ul>li>a{
 
 /* Main Section Styles */
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 .about{
@@ -98,4 +101,19 @@ nav>ul>li>a{
     border-radius: 10px;
     background: rgb(255, 248, 243);
     margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 17px;
+    font-weight: 500;
+}
+.info-description{
+    font-size: 17px;
+    font-weight: 700;
 }
