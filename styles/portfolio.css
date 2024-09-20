@@ -179,7 +179,26 @@ main section{
 /* footer style */
 footer{
     display: flex;
+    gap: 100px;
     background: rgb(255, 248, 243);
     padding: 130px 230px;
     margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-list a{
+    margin-right: 25px;
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 100%;
 }
