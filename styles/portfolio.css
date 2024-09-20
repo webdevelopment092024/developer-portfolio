@@ -57,9 +57,9 @@ nav>ul>li>a{
 /* header related style */
 .header-class{
     background-color: rgb(255, 248, 243);
-    background-image:url(../images/header_bg.png);
+    background-image:url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
